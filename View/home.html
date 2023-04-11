@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+
+</head>
+<body>
+<center>
+    <h1>List</h1>
+</center>
+<div style="display: flex; align-items: center;justify-content: space-between; margin-top: 20px">
+    <button style="color:dimgrey; margin-left: 5px; position: fixed; top: 50px; left: 5px;"><a href="/add" style="color:grey" >Add</a></button>
+    <table class="table table-striped"  style="border: 2px solid gray;position: fixed; top: 50px; left: 70px; right: 10px; width: 900px" >
+        <thead>
+        <tr>
+            <th scope="col" >Index</th>
+            <th scope="col" >Id</th>
+            <th scope="col" >Name</th>
+            <th scope="col" >Practical Grade</th>
+            <th scope="col" >Theory Grade</th>
+            <th scope="col" >Comment</th>
+            <th scope="col" >Description</th>
+            <th style="text-align: center" scope="col" colspan="2">Action</th>
+        </tr>
+        </thead>
+        {student}
+    </table>
+</div>
+</body>
+</html>
